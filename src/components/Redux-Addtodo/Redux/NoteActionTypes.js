@@ -1,0 +1,8 @@
+export const ADD_NOTE="ADD_NOTE"
+export const DELETE_NOTE="DELETE_NOTE"
+export const EDIT_NOTE="EDIT_NOTE"
+export const SAVE_NOTE="SAVE_NOTE"
+export const ONCHANGE_NOTE="ONCHANGE_NOTE"
+export const RESET_NOTE="RESET_NOTE"
+export const LOAD_NOTES="LOAD_NOTES"
+export const USER_ID="USER_ID"

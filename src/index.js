@@ -1,13 +1,17 @@
 import React from 'react'
-import App from "./App"
+// import App from "./App"
+// import stylesheet from "./components/Photowall/stylesheet.css"
 import ReactDOM from 'react-dom/client'
-import  {Provider}  from 'react-redux'
-import { Store } from "./Store"
+import AppTodoRdedux from './AppTodoRdedux'
+// import AppRedux from './AppRedux'
+// import AppPhotoWall from "./AppPhotoWall"
 const ele = ReactDOM.createRoot(document.getElementById("root"))
 
 ele.render(
-    <Provider store={Store}>
-        <App />
-    </Provider>
+    <>
+        {/* <App/> */}
+        {/* <AppRedux/> */}
+        <AppTodoRdedux />
+        {/* <AppPhotoWall/> */}
+    </>
 )
-
